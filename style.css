@@ -1,0 +1,97 @@
+body{
+    background-color: #ffffff41;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 100%;
+    padding: 125px;
+    border-radius: 10px;
+    background-color: #f7700165;
+    background-image: url(https://jdv.com.br/wp-content/uploads/2024/03/imagem-7-dicas.jpg);
+    
+}
+
+.titulo {
+    margin: auto;
+    color: #ee5700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.Buscar{
+    text-align: center;
+}
+
+.pesquisa{
+    width: 1000px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.568);
+    border-style: solid;
+}
+
+.barra_navegacao{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #e26f1002;
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(255, 5, 5, 0.05);
+    padding: 10px 0px;
+    top: 0;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    cursor: pointer;
+    color: #444;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s, border-bottom 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.item:hover {
+    color: #e2741a;
+    border-bottom: 2px solid #e2741a;
+}
+
+.bemvindo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card1 {
+    background-image: url(https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia27698/quais-sao-as-principais-comidas-tipicas-da-culinaria-mineira-cpt11.jpg);
+  background-color: #e2741a8c;
+  padding: 100px;         
+  border-radius: 10px;
+  width: 120px;
+  text-align: center;
+} 
+  
+.regionais{
+    color: white;
+    font-size: larger;
+    background-color: #e2741a81;
+    padding: auto;
+    text-align: center;       
+
+}
+.cards :hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}

@@ -7,7 +7,8 @@ body {
 .cabecalho {
     width: 1080px;
     height: 100%;
-    padding: 120px;
+    padding: 125px;
+    margin: auto;
     border-radius: 10px;
     background-color: #f7700165;
     background-image: url(https://jdv.com.br/wp-content/uploads/2024/03/imagem-7-dicas.jpg);
@@ -30,16 +31,37 @@ body {
 }
 
 .Buscar {
-    text-align: center;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .pesquisa {
-    width: 1000px;
-    height: 40px;
-    border-radius: 5px;
-    border-color: rgba(128, 128, 128, 0.568);
-    border-style: solid;
+  width: 60%;
+  padding: 10px;
+  border-radius: 25px;
+  border: 2px solid #f77001;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
 }
+
+.botao {
+  background-color: #f77001;
+  color: #fff;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #e06100;
+}
+
+
 
 .barra_navegacao {
     justify-content: center;
